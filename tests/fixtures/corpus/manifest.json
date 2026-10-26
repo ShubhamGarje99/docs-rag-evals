@@ -1,0 +1,10 @@
+{
+  "source_repo": "https://github.com/fastapi/fastapi",
+  "tag": "fixture",
+  "commit": "0000000000000000000000000000000000000000",
+  "pages": [
+    {"path": "tutorial/background-tasks.md", "title": "Background Tasks", "url": "https://fastapi.tiangolo.com/tutorial/background-tasks/"},
+    {"path": "tutorial/cors.md", "title": "CORS (Cross-Origin Resource Sharing)", "url": "https://fastapi.tiangolo.com/tutorial/cors/"},
+    {"path": "tutorial/path-params.md", "title": "Path Parameters", "url": "https://fastapi.tiangolo.com/tutorial/path-params/"}
+  ]
+}
