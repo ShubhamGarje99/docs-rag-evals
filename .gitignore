@@ -1,0 +1,37 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# model caches (if HF_HOME / SENTENCE_TRANSFORMERS_HOME point inside the repo)
+.cache/
+models/
+hf_cache/
+*.safetensors
+*.bin
+*.onnx
+
+# postgres data (compose uses a named volume; this covers bind-mount setups)
+pgdata/
+db/data/
+
+# run artifacts
+evals/runs/
+*.log
+.server.pid
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

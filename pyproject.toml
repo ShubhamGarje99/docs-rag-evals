@@ -1,0 +1,51 @@
+[project]
+name = "docs-rag-evals"
+version = "0.1.0"
+description = "RAG chatbot over the FastAPI docs with native Claude citations, a refusal guard, and a reproducible retrieval ablation."
+authors = [
+    { name = "Shubham Garje", email = "main.garje@gmail.com" }
+]
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "anthropic>=2.3.0",
+    "bm25s>=0.3.15",
+    "fastapi>=0.162.0",
+    "numpy>=2.5.4",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.6",
+    "pystemmer>=3.1.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "ragkit"
+module-root = ""
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "ruff>=0.17.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["integration: needs the docker Postgres + downloaded models (run with `make test-integration`)"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["corpus"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B008", "B905", "E731"]
