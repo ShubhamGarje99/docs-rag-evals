@@ -1,0 +1,43 @@
+{
+ "meta": {
+  "date": "2026-10-27",
+  "rev": "5bc0e84",
+  "golden_hash": "969bb05406ea",
+  "candidate_k": 30
+ },
+ "overall": {
+  "hybrid": {
+   "hit@1": 0.5208,
+   "hit@3": 0.7917,
+   "hit@5": 0.875,
+   "hit@10": 0.9375,
+   "mrr@10": 0.6709,
+   "recall@5": 0.7778,
+   "latency_ms_mean": 18.3,
+   "latency_ms_p50": 16.6,
+   "latency_ms_p95": 33.0
+  },
+  "hybrid_rerank": {
+   "hit@1": 0.5,
+   "hit@3": 0.7917,
+   "hit@5": 0.875,
+   "hit@10": 0.9375,
+   "mrr@10": 0.6508,
+   "recall@5": 0.7639,
+   "latency_ms_mean": 418.6,
+   "latency_ms_p50": 318.2,
+   "latency_ms_p95": 692.5
+  },
+  "hybrid_rerank:BAAI/bge-reranker-base": {
+   "hit@1": 0.4792,
+   "hit@3": 0.7708,
+   "hit@5": 0.9167,
+   "hit@10": 0.9375,
+   "mrr@10": 0.6388,
+   "recall@5": 0.7917,
+   "latency_ms_mean": 2556.7,
+   "latency_ms_p50": 1847.9,
+   "latency_ms_p95": 5366.2
+  }
+ }
+}
