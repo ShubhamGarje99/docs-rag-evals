@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FastAPI Docs Copilot</title>
+  <meta name="description" content="RAG over the FastAPI docs with Claude citations, a refusal guard and a measured retrieval ablation.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='15' fill='%23059487'/><path d='M17 5 9 18h6l-1 9 8-13h-6z' fill='white'/></svg>">
+  <link rel="stylesheet" href="/static/styles.css?v=0.1.0">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">⚡</span>
+      <div>
+        <h1>FastAPI Docs Copilot</h1>
+        <p class="tagline">Answers from the FastAPI docs, with citations — or an honest “not found”.</p>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="seg" role="radiogroup" aria-label="Retriever" id="retrievers"></div>
+      <span class="pill" id="mode-pill" title="">…</span>
+      <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <div class="banner" id="banner" hidden></div>
+
+  <main class="layout">
+    <section class="chat" aria-label="Conversation">
+      <div class="messages" id="messages">
+        <div class="empty" id="empty">
+          <h2>Ask anything about FastAPI</h2>
+          <p>Every claim is backed by a quoted passage from the docs (FastAPI <code id="corpus-tag">0.162.0</code>). Try:</p>
+          <div class="examples" id="examples">
+            <button data-q="How do I let my React app on localhost:3000 call my API?">React app blocked by CORS</button>
+            <button data-q="What's the difference between fastapi dev and fastapi run?">fastapi dev vs run</button>
+            <button data-q="How do I stream Server-Sent Events from an endpoint?">Stream Server-Sent Events</button>
+            <button data-q="How do I add rate limiting of 100 requests per minute per IP?">Rate limiting (not in docs)</button>
+          </div>
+        </div>
+      </div>
+      <form class="composer" id="composer" autocomplete="off">
+        <textarea id="question" rows="1" placeholder="Ask about path params, dependencies, deployment…" aria-label="Question" maxlength="2000"></textarea>
+        <button type="submit" id="send" class="send">Ask</button>
+      </form>
+    </section>
+
+    <aside class="sources" aria-label="Retrieved sources">
+      <div class="sources-head">
+        <h2>Sources</h2>
+        <span class="muted" id="sources-meta"></span>
+      </div>
+      <ol class="source-list" id="source-list">
+        <li class="muted placeholder">Retrieved chunks for the selected answer appear here, with retriever scores. Cited chunks are highlighted.</li>
+      </ol>
+    </aside>
+  </main>
+
+  <div class="popover" id="popover" role="dialog" hidden></div>
+  <script src="/static/app.js?v=0.1.0"></script>
+</body>
+</html>
