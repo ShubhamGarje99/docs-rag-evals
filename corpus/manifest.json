@@ -1,0 +1,802 @@
+{
+  "source_repo": "https://github.com/fastapi/fastapi",
+  "tag": "0.162.0",
+  "commit": "7a0a3f0b286c6c865cf4398ea0e957a87b8bffa4",
+  "tarball_url": "https://codeload.github.com/fastapi/fastapi/tar.gz/refs/tags/0.162.0",
+  "tarball_sha256": "740d83d44f6f6a17c8759b2f3cd2d04f1eeade97ddf540700f9e2a107537f022",
+  "license": "MIT (see corpus/LICENSE)",
+  "pages": [
+    {
+      "path": "advanced/additional-responses.md",
+      "title": "Additional Responses in OpenAPI",
+      "url": "https://fastapi.tiangolo.com/advanced/additional-responses/",
+      "upstream_path": "docs/en/docs/advanced/additional-responses.md",
+      "upstream_sha256": "e8bba061371422a47f7f379a2a24493a67582da88eadf55575426cf8c2c6b39b",
+      "words": 1269
+    },
+    {
+      "path": "advanced/additional-status-codes.md",
+      "title": "Additional Status Codes",
+      "url": "https://fastapi.tiangolo.com/advanced/additional-status-codes/",
+      "upstream_path": "docs/en/docs/advanced/additional-status-codes.md",
+      "upstream_sha256": "218eeb0ab9773ffc01143085b4ade9991c289334f09526a4d74087049a2de445",
+      "words": 378
+    },
+    {
+      "path": "advanced/advanced-dependencies.md",
+      "title": "Advanced Dependencies",
+      "url": "https://fastapi.tiangolo.com/advanced/advanced-dependencies/",
+      "upstream_path": "docs/en/docs/advanced/advanced-dependencies.md",
+      "upstream_sha256": "f974f19e62ac242065fd8783e672e907f8b4b5738f06e0023a3d96c0d40ae754",
+      "words": 1508
+    },
+    {
+      "path": "advanced/advanced-python-types.md",
+      "title": "Advanced Python Types",
+      "url": "https://fastapi.tiangolo.com/advanced/advanced-python-types/",
+      "upstream_path": "docs/en/docs/advanced/advanced-python-types.md",
+      "upstream_sha256": "cabf2d7ccaa178c7163899e837190bb89e90df1cc03db53acb256e74ab37ff9a",
+      "words": 329
+    },
+    {
+      "path": "advanced/async-tests.md",
+      "title": "Async Tests",
+      "url": "https://fastapi.tiangolo.com/advanced/async-tests/",
+      "upstream_path": "docs/en/docs/advanced/async-tests.md",
+      "upstream_sha256": "6b89c80ee2049808d7081f1b12aceea3451128b771e8bc3bb82ba9d2b87b10dc",
+      "words": 585
+    },
+    {
+      "path": "advanced/behind-a-proxy.md",
+      "title": "Behind a Proxy",
+      "url": "https://fastapi.tiangolo.com/advanced/behind-a-proxy/",
+      "upstream_path": "docs/en/docs/advanced/behind-a-proxy.md",
+      "upstream_sha256": "ca98c9e590fcda5ef0ef12e387907b7e5c8677a889c5c920396f0ecb99b9d0b6",
+      "words": 2035
+    },
+    {
+      "path": "advanced/custom-response.md",
+      "title": "Custom Response - HTML, Stream, File, others",
+      "url": "https://fastapi.tiangolo.com/advanced/custom-response/",
+      "upstream_path": "docs/en/docs/advanced/custom-response.md",
+      "upstream_sha256": "590d22726236c1954e8dde69e2d842fd69ade6952fe46f43e3c3309799368f9d",
+      "words": 1904
+    },
+    {
+      "path": "advanced/dataclasses.md",
+      "title": "Using Dataclasses",
+      "url": "https://fastapi.tiangolo.com/advanced/dataclasses/",
+      "upstream_path": "docs/en/docs/advanced/dataclasses.md",
+      "upstream_sha256": "38f32efa3334d83fc25fc798d898896af10eca2327b23514db459422fbc8f7df",
+      "words": 784
+    },
+    {
+      "path": "advanced/events.md",
+      "title": "Lifespan Events",
+      "url": "https://fastapi.tiangolo.com/advanced/events/",
+      "upstream_path": "docs/en/docs/advanced/events.md",
+      "upstream_sha256": "33de759da943ea437830d8c744d8c0a3887f40c54f738886314575805216afab",
+      "words": 1359
+    },
+    {
+      "path": "advanced/generate-clients.md",
+      "title": "Generating SDKs",
+      "url": "https://fastapi.tiangolo.com/advanced/generate-clients/",
+      "upstream_path": "docs/en/docs/advanced/generate-clients.md",
+      "upstream_sha256": "d401f5f136ddae9e78d2f7bd0f28e5de08f69189b89e2f58fe22c95d4d9dd07f",
+      "words": 1431
+    },
+    {
+      "path": "advanced/index.md",
+      "title": "Advanced User Guide",
+      "url": "https://fastapi.tiangolo.com/advanced/",
+      "upstream_path": "docs/en/docs/advanced/index.md",
+      "upstream_sha256": "b1f89adea85d3293e397ac6dccc774b4aa04cbc94b5d63604d272bf5c9df7f6c",
+      "words": 115
+    },
+    {
+      "path": "advanced/json-base64-bytes.md",
+      "title": "JSON with Bytes as Base64",
+      "url": "https://fastapi.tiangolo.com/advanced/json-base64-bytes/",
+      "upstream_path": "docs/en/docs/advanced/json-base64-bytes.md",
+      "upstream_sha256": "9407de903f42e92c04b982a1d2d624007c552f672a7fa579a199b46e7cc18a28",
+      "words": 453
+    },
+    {
+      "path": "advanced/middleware.md",
+      "title": "Advanced Middleware",
+      "url": "https://fastapi.tiangolo.com/advanced/middleware/",
+      "upstream_path": "docs/en/docs/advanced/middleware.md",
+      "upstream_sha256": "051ef9c6cd54a566be9192e0e4b6667b0e84604db7a3cffea8d970f874d72014",
+      "words": 600
+    },
+    {
+      "path": "advanced/openapi-callbacks.md",
+      "title": "OpenAPI Callbacks",
+      "url": "https://fastapi.tiangolo.com/advanced/openapi-callbacks/",
+      "upstream_path": "docs/en/docs/advanced/openapi-callbacks.md",
+      "upstream_sha256": "e5e9e2fc12deca5e6a24229d813d7b78e4ef6b750ad9de26c9393b1b3105221c",
+      "words": 1307
+    },
+    {
+      "path": "advanced/openapi-webhooks.md",
+      "title": "OpenAPI Webhooks",
+      "url": "https://fastapi.tiangolo.com/advanced/openapi-webhooks/",
+      "upstream_path": "docs/en/docs/advanced/openapi-webhooks.md",
+      "upstream_sha256": "5ac99c21eaad3bc474811457e6f1f03d553f7da217a22f20d4b743f6d637d23e",
+      "words": 519
+    },
+    {
+      "path": "advanced/opentelemetry.md",
+      "title": "OpenTelemetry",
+      "url": "https://fastapi.tiangolo.com/advanced/opentelemetry/",
+      "upstream_path": "docs/en/docs/advanced/opentelemetry.md",
+      "upstream_sha256": "9bb6165753d464cd52e7b33e9cee88a98485531d4e1878e527eeee9f4c04209a",
+      "words": 1112
+    },
+    {
+      "path": "advanced/path-operation-advanced-configuration.md",
+      "title": "Path Operation Advanced Configuration",
+      "url": "https://fastapi.tiangolo.com/advanced/path-operation-advanced-configuration/",
+      "upstream_path": "docs/en/docs/advanced/path-operation-advanced-configuration.md",
+      "upstream_sha256": "91828a237bb474c161a7d7424af07ada73f9398d69aa56409c048fe48cf17bd1",
+      "words": 1225
+    },
+    {
+      "path": "advanced/response-change-status-code.md",
+      "title": "Response - Change Status Code",
+      "url": "https://fastapi.tiangolo.com/advanced/response-change-status-code/",
+      "upstream_path": "docs/en/docs/advanced/response-change-status-code.md",
+      "upstream_sha256": "ea918672101986658fa199f2f307351aa80a053709cf2b904bddeac9972fc343",
+      "words": 290
+    },
+    {
+      "path": "advanced/response-cookies.md",
+      "title": "Response Cookies",
+      "url": "https://fastapi.tiangolo.com/advanced/response-cookies/",
+      "upstream_path": "docs/en/docs/advanced/response-cookies.md",
+      "upstream_sha256": "9a28cf8fcb42035459b8134128991a8c31c20646039378aaa997bcc1309352af",
+      "words": 374
+    },
+    {
+      "path": "advanced/response-directly.md",
+      "title": "Return a Response Directly",
+      "url": "https://fastapi.tiangolo.com/advanced/response-directly/",
+      "upstream_path": "docs/en/docs/advanced/response-directly.md",
+      "upstream_sha256": "ed930c2b190cecb99a336152e072e7430efa2b99afb5d47c741805965b361003",
+      "words": 735
+    },
+    {
+      "path": "advanced/response-headers.md",
+      "title": "Response Headers",
+      "url": "https://fastapi.tiangolo.com/advanced/response-headers/",
+      "upstream_path": "docs/en/docs/advanced/response-headers.md",
+      "upstream_sha256": "ff783f7a73905b1ac4fca980dfaa09782af510cc038e193512a1c675e33591e0",
+      "words": 349
+    },
+    {
+      "path": "advanced/security/http-basic-auth.md",
+      "title": "HTTP Basic Auth",
+      "url": "https://fastapi.tiangolo.com/advanced/security/http-basic-auth/",
+      "upstream_path": "docs/en/docs/advanced/security/http-basic-auth.md",
+      "upstream_sha256": "29af6892acc5117daa11fa484cfe659b1d9c265705a68095a9426ffc287ca8ec",
+      "words": 864
+    },
+    {
+      "path": "advanced/security/index.md",
+      "title": "Advanced Security",
+      "url": "https://fastapi.tiangolo.com/advanced/security/",
+      "upstream_path": "docs/en/docs/advanced/security/index.md",
+      "upstream_sha256": "533f365dfe52ab453074e3ccf4e551a5dad6620028aa7ab1787cc24f5dc5e415",
+      "words": 90
+    },
+    {
+      "path": "advanced/security/oauth2-scopes.md",
+      "title": "OAuth2 scopes",
+      "url": "https://fastapi.tiangolo.com/advanced/security/oauth2-scopes/",
+      "upstream_path": "docs/en/docs/advanced/security/oauth2-scopes.md",
+      "upstream_sha256": "c8e866d22d766b9473958b91c0231c2547ded1f323207ca1c64609df2b36bb5e",
+      "words": 2495
+    },
+    {
+      "path": "advanced/settings.md",
+      "title": "Settings and Environment Variables",
+      "url": "https://fastapi.tiangolo.com/advanced/settings/",
+      "upstream_path": "docs/en/docs/advanced/settings.md",
+      "upstream_sha256": "e25439be1e4468a444757378f4b65de038867df9bf969e1ddf64460dc3e8f79f",
+      "words": 1890
+    },
+    {
+      "path": "advanced/stream-data.md",
+      "title": "Stream Data",
+      "url": "https://fastapi.tiangolo.com/advanced/stream-data/",
+      "upstream_path": "docs/en/docs/advanced/stream-data.md",
+      "upstream_sha256": "8af35135ea5ebed19fe74496da9e109fdf842e7f1608abe00001a6cac5179da8",
+      "words": 1112
+    },
+    {
+      "path": "advanced/strict-content-type.md",
+      "title": "Strict Content-Type Checking",
+      "url": "https://fastapi.tiangolo.com/advanced/strict-content-type/",
+      "upstream_path": "docs/en/docs/advanced/strict-content-type.md",
+      "upstream_sha256": "c46698c00f096129b39817750c56134cac627bf74b9e9e0e2c748ae26fd98ac3",
+      "words": 522
+    },
+    {
+      "path": "advanced/sub-applications.md",
+      "title": "Sub Applications - Mounts",
+      "url": "https://fastapi.tiangolo.com/advanced/sub-applications/",
+      "upstream_path": "docs/en/docs/advanced/sub-applications.md",
+      "upstream_sha256": "79ef2e6ad8b5bc4450369c3964a293a5ca79238c938b7e624995ec9eab97a5d8",
+      "words": 419
+    },
+    {
+      "path": "advanced/templates.md",
+      "title": "Templates",
+      "url": "https://fastapi.tiangolo.com/advanced/templates/",
+      "upstream_path": "docs/en/docs/advanced/templates.md",
+      "upstream_sha256": "d00f44b1d685db9dfc31c2a796126718154dc5e323d87bb674771df131ad3661",
+      "words": 655
+    },
+    {
+      "path": "advanced/testing-dependencies.md",
+      "title": "Testing Dependencies with Overrides",
+      "url": "https://fastapi.tiangolo.com/advanced/testing-dependencies/",
+      "upstream_path": "docs/en/docs/advanced/testing-dependencies.md",
+      "upstream_sha256": "6d26e7728428a508c2a51ac8e53920d003cbc9ed83f63df2e20590b199f12c2a",
+      "words": 519
+    },
+    {
+      "path": "advanced/testing-events.md",
+      "title": "Testing Events: lifespan and startup - shutdown",
+      "url": "https://fastapi.tiangolo.com/advanced/testing-events/",
+      "upstream_path": "docs/en/docs/advanced/testing-events.md",
+      "upstream_sha256": "54bc35fff61354725614f937dd5452af649da0f8e32a8d08fdeb0b741d08862a",
+      "words": 257
+    },
+    {
+      "path": "advanced/testing-websockets.md",
+      "title": "Testing WebSockets",
+      "url": "https://fastapi.tiangolo.com/advanced/testing-websockets/",
+      "upstream_path": "docs/en/docs/advanced/testing-websockets.md",
+      "upstream_sha256": "ba45f3b0fffa3f74b373b6d32d9ccb672b5ea681bcf15ae470e6acd16d4d3f68",
+      "words": 113
+    },
+    {
+      "path": "advanced/using-request-directly.md",
+      "title": "Using the Request Directly",
+      "url": "https://fastapi.tiangolo.com/advanced/using-request-directly/",
+      "upstream_path": "docs/en/docs/advanced/using-request-directly.md",
+      "upstream_sha256": "8b8867a2f4306c3f468b8e8f85b3647549c0435af603f44fb4057406a7bae56e",
+      "words": 357
+    },
+    {
+      "path": "advanced/websockets.md",
+      "title": "WebSockets",
+      "url": "https://fastapi.tiangolo.com/advanced/websockets/",
+      "upstream_path": "docs/en/docs/advanced/websockets.md",
+      "upstream_sha256": "8320bc17f58bd4427b91caf7ab7aceb2143b3203aba29f29116b8829e5f62f31",
+      "words": 1211
+    },
+    {
+      "path": "advanced/wsgi.md",
+      "title": "Including WSGI - Flask, Django, others",
+      "url": "https://fastapi.tiangolo.com/advanced/wsgi/",
+      "upstream_path": "docs/en/docs/advanced/wsgi.md",
+      "upstream_sha256": "9b1216351f8791fda89672974318384590e2e2cd188287f56184d46357ea1ff9",
+      "words": 248
+    },
+    {
+      "path": "async.md",
+      "title": "Concurrency and async / await",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "upstream_path": "docs/en/docs/async.md",
+      "upstream_sha256": "5c112ab0e608d07324b13d9e8e61f670a932437a159d34e6a73779f65bfc9960",
+      "words": 3688
+    },
+    {
+      "path": "deployment/cloud.md",
+      "title": "Deploy FastAPI on Cloud Providers",
+      "url": "https://fastapi.tiangolo.com/deployment/cloud/",
+      "upstream_path": "docs/en/docs/deployment/cloud.md",
+      "upstream_sha256": "dbd7b0dfca7df7e9dc2fd864050e1c88ff5c2cc54ecea77ae5626b1041423974",
+      "words": 140
+    },
+    {
+      "path": "deployment/concepts.md",
+      "title": "Deployments Concepts",
+      "url": "https://fastapi.tiangolo.com/deployment/concepts/",
+      "upstream_path": "docs/en/docs/deployment/concepts.md",
+      "upstream_sha256": "cd6e86bb5725fed1807b343a17b302ea8b1106b9049326b63707de499e2ee606",
+      "words": 3091
+    },
+    {
+      "path": "deployment/docker.md",
+      "title": "FastAPI in Containers - Docker",
+      "url": "https://fastapi.tiangolo.com/deployment/docker/",
+      "upstream_path": "docs/en/docs/deployment/docker.md",
+      "upstream_sha256": "0337b98d51778755f59aa1b96ba319f0decc20136f3b3ff1b7547619a5c71100",
+      "words": 4189
+    },
+    {
+      "path": "deployment/fastapicloud.md",
+      "title": "FastAPI Cloud",
+      "url": "https://fastapi.tiangolo.com/deployment/fastapicloud/",
+      "upstream_path": "docs/en/docs/deployment/fastapicloud.md",
+      "upstream_sha256": "2b1367d719cb81aaff9bd51e1d75de96ddb5e376245b1ef78ba07fe54d3756c5",
+      "words": 271
+    },
+    {
+      "path": "deployment/https.md",
+      "title": "About HTTPS",
+      "url": "https://fastapi.tiangolo.com/deployment/https/",
+      "upstream_path": "docs/en/docs/deployment/https.md",
+      "upstream_sha256": "96ab47d0bdd57399bc93fcf44877c6849e7f0513377273e25f783b5bb3117ad6",
+      "words": 2114
+    },
+    {
+      "path": "deployment/index.md",
+      "title": "Deployment",
+      "url": "https://fastapi.tiangolo.com/deployment/",
+      "upstream_path": "docs/en/docs/deployment/index.md",
+      "upstream_sha256": "db01bbd0f4bc3cb78acaeec8a4a7ba94f11b4ca08acbd78d5f56f466cab0f1c0",
+      "words": 240
+    },
+    {
+      "path": "deployment/manually.md",
+      "title": "Run a Server Manually",
+      "url": "https://fastapi.tiangolo.com/deployment/manually/",
+      "upstream_path": "docs/en/docs/deployment/manually.md",
+      "upstream_sha256": "092f1a9a7b85634c20c2fd9a709f274201d109accdf620ccda12ff7be285c410",
+      "words": 726
+    },
+    {
+      "path": "deployment/server-workers.md",
+      "title": "Server Workers - Uvicorn with Workers",
+      "url": "https://fastapi.tiangolo.com/deployment/server-workers/",
+      "upstream_path": "docs/en/docs/deployment/server-workers.md",
+      "upstream_sha256": "5b4bd1b6afe1c9ef70bd210aa101ce386f6c48ee9f8c97e4066ab667545b74da",
+      "words": 749
+    },
+    {
+      "path": "deployment/versions.md",
+      "title": "About FastAPI versions",
+      "url": "https://fastapi.tiangolo.com/deployment/versions/",
+      "upstream_path": "docs/en/docs/deployment/versions.md",
+      "upstream_sha256": "be142679260fcd584d5b67d82099ef853ff095b0ba9b436d464794c08ab20432",
+      "words": 541
+    },
+    {
+      "path": "fastapi-cli.md",
+      "title": "FastAPI CLI",
+      "url": "https://fastapi.tiangolo.com/fastapi-cli/",
+      "upstream_path": "docs/en/docs/fastapi-cli.md",
+      "upstream_sha256": "ad3860dd30364ab774324d61580dd2b7b175e28a0a3fbd3fc1b2c5ec779ffe3f",
+      "words": 693
+    },
+    {
+      "path": "features.md",
+      "title": "Features",
+      "url": "https://fastapi.tiangolo.com/features/",
+      "upstream_path": "docs/en/docs/features.md",
+      "upstream_sha256": "ceab6dbf056ac5aa7fc8be04f9b124d4e707f56342c62c300835cda9af094c2f",
+      "words": 1224
+    },
+    {
+      "path": "python-types.md",
+      "title": "Python Types Intro",
+      "url": "https://fastapi.tiangolo.com/python-types/",
+      "upstream_path": "docs/en/docs/python-types.md",
+      "upstream_sha256": "01a72f8818f0e04cc0b3d77d20fd1591ba34bdbe21b85d9f4ce9c17b2511a8b1",
+      "words": 1875
+    },
+    {
+      "path": "tutorial/background-tasks.md",
+      "title": "Background Tasks",
+      "url": "https://fastapi.tiangolo.com/tutorial/background-tasks/",
+      "upstream_path": "docs/en/docs/tutorial/background-tasks.md",
+      "upstream_sha256": "7a34e7a4a7bd2cb9e0b465588b77cf007b0a5c8bdcf7530ff3619ff6b3642468",
+      "words": 825
+    },
+    {
+      "path": "tutorial/bigger-applications.md",
+      "title": "Bigger Applications - Multiple Files",
+      "url": "https://fastapi.tiangolo.com/tutorial/bigger-applications/",
+      "upstream_path": "docs/en/docs/tutorial/bigger-applications.md",
+      "upstream_sha256": "43bda3093c97796838866e54becf78994e2f27915e9909e23bc77b59f5f9a23b",
+      "words": 3035
+    },
+    {
+      "path": "tutorial/body-fields.md",
+      "title": "Body - Fields",
+      "url": "https://fastapi.tiangolo.com/tutorial/body-fields/",
+      "upstream_path": "docs/en/docs/tutorial/body-fields.md",
+      "upstream_sha256": "c826ba83421489edb760ea62f8e3891f18dfd658fe2d7be2f26cc5598447f251",
+      "words": 437
+    },
+    {
+      "path": "tutorial/body-multiple-params.md",
+      "title": "Body - Multiple Parameters",
+      "url": "https://fastapi.tiangolo.com/tutorial/body-multiple-params/",
+      "upstream_path": "docs/en/docs/tutorial/body-multiple-params.md",
+      "upstream_sha256": "be8df903354461511052ae4bb75665268747039ab64d3fe872124870f7f09280",
+      "words": 1054
+    },
+    {
+      "path": "tutorial/body-nested-models.md",
+      "title": "Body - Nested Models",
+      "url": "https://fastapi.tiangolo.com/tutorial/body-nested-models/",
+      "upstream_path": "docs/en/docs/tutorial/body-nested-models.md",
+      "upstream_sha256": "87c1ff04f9dc7c885be837cb992ebdf695907eecd9acc929faa1b7a184120f48",
+      "words": 1402
+    },
+    {
+      "path": "tutorial/body-updates.md",
+      "title": "Body - Updates",
+      "url": "https://fastapi.tiangolo.com/tutorial/body-updates/",
+      "upstream_path": "docs/en/docs/tutorial/body-updates.md",
+      "upstream_sha256": "a798bdb62c27ac9a3f5d2b3853eb4168a31aeb08ff36595e0231747ccaad78a8",
+      "words": 822
+    },
+    {
+      "path": "tutorial/body.md",
+      "title": "Request Body",
+      "url": "https://fastapi.tiangolo.com/tutorial/body/",
+      "upstream_path": "docs/en/docs/tutorial/body.md",
+      "upstream_sha256": "1a3e0f7b9220dcee9a7379c999d57b49e126ed07725dbbc5566ee1278d4ec670",
+      "words": 1179
+    },
+    {
+      "path": "tutorial/cookie-param-models.md",
+      "title": "Cookie Parameter Models",
+      "url": "https://fastapi.tiangolo.com/tutorial/cookie-param-models/",
+      "upstream_path": "docs/en/docs/tutorial/cookie-param-models.md",
+      "upstream_sha256": "b6dc2cf33e9cbee9892882953d6b8ddac55937fb664fed320e55f79fa82d57a3",
+      "words": 704
+    },
+    {
+      "path": "tutorial/cookie-params.md",
+      "title": "Cookie Parameters",
+      "url": "https://fastapi.tiangolo.com/tutorial/cookie-params/",
+      "upstream_path": "docs/en/docs/tutorial/cookie-params.md",
+      "upstream_sha256": "790d67721fc8000801a48d0e8b4892a152388e12c4b7a2a58780dd73d0c68c28",
+      "words": 267
+    },
+    {
+      "path": "tutorial/cors.md",
+      "title": "CORS (Cross-Origin Resource Sharing)",
+      "url": "https://fastapi.tiangolo.com/tutorial/cors/",
+      "upstream_path": "docs/en/docs/tutorial/cors.md",
+      "upstream_sha256": "da167c442cc3a73a776782a3e45936165c713e63cc40a9f0117d490a51a60b17",
+      "words": 759
+    },
+    {
+      "path": "tutorial/debugging.md",
+      "title": "Debugging",
+      "url": "https://fastapi.tiangolo.com/tutorial/debugging/",
+      "upstream_path": "docs/en/docs/tutorial/debugging.md",
+      "upstream_sha256": "3c05a63e149781e253413447a62b2559dce4dab9a304920d283f3ce34cc7bcf4",
+      "words": 384
+    },
+    {
+      "path": "tutorial/dependencies/classes-as-dependencies.md",
+      "title": "Classes as Dependencies",
+      "url": "https://fastapi.tiangolo.com/tutorial/dependencies/classes-as-dependencies/",
+      "upstream_path": "docs/en/docs/tutorial/dependencies/classes-as-dependencies.md",
+      "upstream_sha256": "ddfad2447ac9a678dc7a41d4985f6b958edb75812465accab0c3c46161029aa5",
+      "words": 1102
+    },
+    {
+      "path": "tutorial/dependencies/dependencies-in-path-operation-decorators.md",
+      "title": "Dependencies in path operation decorators",
+      "url": "https://fastapi.tiangolo.com/tutorial/dependencies/dependencies-in-path-operation-decorators/",
+      "upstream_path": "docs/en/docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md",
+      "upstream_sha256": "69f61187f2a466880ee6471070d6516965c25f4d749b1a202b84a790a8ec8b8c",
+      "words": 466
+    },
+    {
+      "path": "tutorial/dependencies/dependencies-with-yield.md",
+      "title": "Dependencies with yield",
+      "url": "https://fastapi.tiangolo.com/tutorial/dependencies/dependencies-with-yield/",
+      "upstream_path": "docs/en/docs/tutorial/dependencies/dependencies-with-yield.md",
+      "upstream_sha256": "93f58ceecafff1967c39047657ae08a020d2452c84d795dc777901c35b8a0d17",
+      "words": 2065
+    },
+    {
+      "path": "tutorial/dependencies/global-dependencies.md",
+      "title": "Global Dependencies",
+      "url": "https://fastapi.tiangolo.com/tutorial/dependencies/global-dependencies/",
+      "upstream_path": "docs/en/docs/tutorial/dependencies/global-dependencies.md",
+      "upstream_sha256": "26fada3b3b65da1b47419a6d2c289630afabfccfd9ec80d4f8291702639d9e5f",
+      "words": 197
+    },
+    {
+      "path": "tutorial/dependencies/index.md",
+      "title": "Dependencies",
+      "url": "https://fastapi.tiangolo.com/tutorial/dependencies/",
+      "upstream_path": "docs/en/docs/tutorial/dependencies/index.md",
+      "upstream_sha256": "83319cc87297bb0959c5721a112133e6a3cd19900163c348a8ee6cf4818cd21f",
+      "words": 1512
+    },
+    {
+      "path": "tutorial/dependencies/sub-dependencies.md",
+      "title": "Sub-dependencies",
+      "url": "https://fastapi.tiangolo.com/tutorial/dependencies/sub-dependencies/",
+      "upstream_path": "docs/en/docs/tutorial/dependencies/sub-dependencies.md",
+      "upstream_sha256": "9900c54685fac0b5376ba3f0d2f000f19feadd42f605003fef9f3be304d82970",
+      "words": 550
+    },
+    {
+      "path": "tutorial/encoder.md",
+      "title": "JSON Compatible Encoder",
+      "url": "https://fastapi.tiangolo.com/tutorial/encoder/",
+      "upstream_path": "docs/en/docs/tutorial/encoder.md",
+      "upstream_sha256": "a7116cae1b44f5ac5841475b533b2df621875c41047d70cb02841ada13e3a486",
+      "words": 278
+    },
+    {
+      "path": "tutorial/extra-data-types.md",
+      "title": "Extra Data Types",
+      "url": "https://fastapi.tiangolo.com/tutorial/extra-data-types/",
+      "upstream_path": "docs/en/docs/tutorial/extra-data-types.md",
+      "upstream_sha256": "23892fb722a135d36fff8ba8a7dd0ba34591c1aa758ed5851a2d3438ada6b667",
+      "words": 467
+    },
+    {
+      "path": "tutorial/extra-models.md",
+      "title": "Extra Models",
+      "url": "https://fastapi.tiangolo.com/tutorial/extra-models/",
+      "upstream_path": "docs/en/docs/tutorial/extra-models.md",
+      "upstream_sha256": "4c2302ff5c331ad0857a93f813f1a699b948476cc80e4bbc9bbea4484f3d5219",
+      "words": 1200
+    },
+    {
+      "path": "tutorial/first-steps.md",
+      "title": "First Steps",
+      "url": "https://fastapi.tiangolo.com/tutorial/first-steps/",
+      "upstream_path": "docs/en/docs/tutorial/first-steps.md",
+      "upstream_sha256": "ecc419c9e4ccf1e996db0b196301aab93a8f43d52ddc59a180d4e88f8290c858",
+      "words": 1722
+    },
+    {
+      "path": "tutorial/frontend.md",
+      "title": "Frontend",
+      "url": "https://fastapi.tiangolo.com/tutorial/frontend/",
+      "upstream_path": "docs/en/docs/tutorial/frontend.md",
+      "upstream_sha256": "eb513e68941a9d5d001001ee55d3d4235e5a25b613891c5681933fe76ff75d9e",
+      "words": 959
+    },
+    {
+      "path": "tutorial/handling-errors.md",
+      "title": "Handling Errors",
+      "url": "https://fastapi.tiangolo.com/tutorial/handling-errors/",
+      "upstream_path": "docs/en/docs/tutorial/handling-errors.md",
+      "upstream_sha256": "c0cb7aeafe8ed3802396f2421755cf1e740000347305c515a2c828c0c41f4b1a",
+      "words": 1635
+    },
+    {
+      "path": "tutorial/header-param-models.md",
+      "title": "Header Parameter Models",
+      "url": "https://fastapi.tiangolo.com/tutorial/header-param-models/",
+      "upstream_path": "docs/en/docs/tutorial/header-param-models.md",
+      "upstream_sha256": "98139ea099dad1d5872fea63cf685713fc6a41d9161122ae241d48f581c21cd8",
+      "words": 721
+    },
+    {
+      "path": "tutorial/header-params.md",
+      "title": "Header Parameters",
+      "url": "https://fastapi.tiangolo.com/tutorial/header-params/",
+      "upstream_path": "docs/en/docs/tutorial/header-params.md",
+      "upstream_sha256": "353c4df2c4e729fea065892556ce92b71c406d3147fd4fa8d8158ac0cda23e0f",
+      "words": 513
+    },
+    {
+      "path": "tutorial/index.md",
+      "title": "Tutorial - User Guide",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "upstream_path": "docs/en/docs/tutorial/index.md",
+      "upstream_sha256": "22d619c9497c8e88094fdba2b297c91ed29b21459b658a3586ae39a95fd65335",
+      "words": 808
+    },
+    {
+      "path": "tutorial/metadata.md",
+      "title": "Metadata and Docs URLs",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "upstream_path": "docs/en/docs/tutorial/metadata.md",
+      "upstream_sha256": "96ed076601792a2c2564b8453e85d094b84c25d6b347be4dec70135fe179da2b",
+      "words": 1028
+    },
+    {
+      "path": "tutorial/middleware.md",
+      "title": "Middleware",
+      "url": "https://fastapi.tiangolo.com/tutorial/middleware/",
+      "upstream_path": "docs/en/docs/tutorial/middleware.md",
+      "upstream_sha256": "58cb232d288a5bdfa6f91680f6615520748884e17463059a1f28e78273563c39",
+      "words": 581
+    },
+    {
+      "path": "tutorial/path-operation-configuration.md",
+      "title": "Path Operation Configuration",
+      "url": "https://fastapi.tiangolo.com/tutorial/path-operation-configuration/",
+      "upstream_path": "docs/en/docs/tutorial/path-operation-configuration.md",
+      "upstream_sha256": "4dd48d33514d52d997bbee269a3c293d70619af1ed9799545a2714010914cad6",
+      "words": 916
+    },
+    {
+      "path": "tutorial/path-params-numeric-validations.md",
+      "title": "Path Parameters and Numeric Validations",
+      "url": "https://fastapi.tiangolo.com/tutorial/path-params-numeric-validations/",
+      "upstream_path": "docs/en/docs/tutorial/path-params-numeric-validations.md",
+      "upstream_sha256": "149a8e36ede2dc1341eb4d403c24c75392be6829c4b4e731e84bf3e6c0200f6f",
+      "words": 1189
+    },
+    {
+      "path": "tutorial/path-params.md",
+      "title": "Path Parameters",
+      "url": "https://fastapi.tiangolo.com/tutorial/path-params/",
+      "upstream_path": "docs/en/docs/tutorial/path-params.md",
+      "upstream_sha256": "81e09015b7a5c40e460eca9939da240a66f8a9efd88ad21c7992146337426fea",
+      "words": 1382
+    },
+    {
+      "path": "tutorial/query-param-models.md",
+      "title": "Query Parameter Models",
+      "url": "https://fastapi.tiangolo.com/tutorial/query-param-models/",
+      "upstream_path": "docs/en/docs/tutorial/query-param-models.md",
+      "upstream_sha256": "337adea1c09d14945a4245f5b88407306cdcde445a33e972f7a65ef09e7ae2b7",
+      "words": 766
+    },
+    {
+      "path": "tutorial/query-params-str-validations.md",
+      "title": "Query Parameters and String Validations",
+      "url": "https://fastapi.tiangolo.com/tutorial/query-params-str-validations/",
+      "upstream_path": "docs/en/docs/tutorial/query-params-str-validations.md",
+      "upstream_sha256": "e783acbc1d41e1fc5f7dc0babaf812bca995b1db6618022e2df5545798c1650b",
+      "words": 3093
+    },
+    {
+      "path": "tutorial/query-params.md",
+      "title": "Query Parameters",
+      "url": "https://fastapi.tiangolo.com/tutorial/query-params/",
+      "upstream_path": "docs/en/docs/tutorial/query-params.md",
+      "upstream_sha256": "260a8599062431557dda2c3b535d5b49a3b6b7d71c3ce680fad3ade1dfe1eb86",
+      "words": 909
+    },
+    {
+      "path": "tutorial/request-files.md",
+      "title": "Request Files",
+      "url": "https://fastapi.tiangolo.com/tutorial/request-files/",
+      "upstream_path": "docs/en/docs/tutorial/request-files.md",
+      "upstream_sha256": "4faafb4853d46b41cb9bc4c7c57e3ab293bcb9ce318b3b369162c4e239425ab6",
+      "words": 1261
+    },
+    {
+      "path": "tutorial/request-form-models.md",
+      "title": "Form Models",
+      "url": "https://fastapi.tiangolo.com/tutorial/request-form-models/",
+      "upstream_path": "docs/en/docs/tutorial/request-form-models.md",
+      "upstream_sha256": "a43425a4ae5265230a5d08fb73a2e251d1fe9c3ca5fcc9107d55fe90013654eb",
+      "words": 924
+    },
+    {
+      "path": "tutorial/request-forms-and-files.md",
+      "title": "Request Forms and Files",
+      "url": "https://fastapi.tiangolo.com/tutorial/request-forms-and-files/",
+      "upstream_path": "docs/en/docs/tutorial/request-forms-and-files.md",
+      "upstream_sha256": "2b0b1c3218818cb05b679ea0f80f1fe6493cf43fbf651305411b3e2b44a122b2",
+      "words": 235
+    },
+    {
+      "path": "tutorial/request-forms.md",
+      "title": "Form Data",
+      "url": "https://fastapi.tiangolo.com/tutorial/request-forms/",
+      "upstream_path": "docs/en/docs/tutorial/request-forms.md",
+      "upstream_sha256": "10729647a5c008d37bd0483b45ac99cbf6c52858ac5a227dfe02fe36d571d9d5",
+      "words": 475
+    },
+    {
+      "path": "tutorial/response-model.md",
+      "title": "Response Model - Return Type",
+      "url": "https://fastapi.tiangolo.com/tutorial/response-model/",
+      "upstream_path": "docs/en/docs/tutorial/response-model.md",
+      "upstream_sha256": "1cb51565cc693ee12e8f9cb6bfeefdab18bc010457274a4d55836474a1bb04ee",
+      "words": 2937
+    },
+    {
+      "path": "tutorial/response-status-code.md",
+      "title": "Response Status Code",
+      "url": "https://fastapi.tiangolo.com/tutorial/response-status-code/",
+      "upstream_path": "docs/en/docs/tutorial/response-status-code.md",
+      "upstream_sha256": "44c62f134437997178668480503cc1cdfc55b45367ce8a66beff89c839aa896a",
+      "words": 612
+    },
+    {
+      "path": "tutorial/schema-extra-example.md",
+      "title": "Declare Request Example Data",
+      "url": "https://fastapi.tiangolo.com/tutorial/schema-extra-example/",
+      "upstream_path": "docs/en/docs/tutorial/schema-extra-example.md",
+      "upstream_sha256": "1bc9e50ddfa28bc8c6057ebdeafafae8069ab9d05e2a1674555122ede3a263a0",
+      "words": 1676
+    },
+    {
+      "path": "tutorial/security/first-steps.md",
+      "title": "Security - First Steps",
+      "url": "https://fastapi.tiangolo.com/tutorial/security/first-steps/",
+      "upstream_path": "docs/en/docs/tutorial/security/first-steps.md",
+      "upstream_sha256": "56a4f9201ff9a331bede5685a1a546f6bc536f75eb4aaeba5c1fb1fb8a49f8c7",
+      "words": 1341
+    },
+    {
+      "path": "tutorial/security/get-current-user.md",
+      "title": "Get Current User",
+      "url": "https://fastapi.tiangolo.com/tutorial/security/get-current-user/",
+      "upstream_path": "docs/en/docs/tutorial/security/get-current-user.md",
+      "upstream_sha256": "2463a415b23ebf2398040ca35a899de4ed7cd7888cb0f7d61f529c4be53f14a4",
+      "words": 765
+    },
+    {
+      "path": "tutorial/security/index.md",
+      "title": "Security",
+      "url": "https://fastapi.tiangolo.com/tutorial/security/",
+      "upstream_path": "docs/en/docs/tutorial/security/index.md",
+      "upstream_sha256": "6c316110d145e16cc08e6e3caff00ebe7247470e85af3ce212d1ba3391092da8",
+      "words": 693
+    },
+    {
+      "path": "tutorial/security/oauth2-jwt.md",
+      "title": "OAuth2 with Password (and hashing), Bearer with JWT tokens",
+      "url": "https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/",
+      "upstream_path": "docs/en/docs/tutorial/security/oauth2-jwt.md",
+      "upstream_sha256": "09de4db00267448e11cbdc198154c6bf3ac4aa48cb88ecb87ee4e71d44d9272b",
+      "words": 2118
+    },
+    {
+      "path": "tutorial/security/simple-oauth2.md",
+      "title": "Simple OAuth2 with Password and Bearer",
+      "url": "https://fastapi.tiangolo.com/tutorial/security/simple-oauth2/",
+      "upstream_path": "docs/en/docs/tutorial/security/simple-oauth2.md",
+      "upstream_sha256": "157bf4bfab49f239293ccbd7ef7af48398fd893f9ac158e06a0544c693c0dc65",
+      "words": 1700
+    },
+    {
+      "path": "tutorial/server-sent-events.md",
+      "title": "Server-Sent Events (SSE)",
+      "url": "https://fastapi.tiangolo.com/tutorial/server-sent-events/",
+      "upstream_path": "docs/en/docs/tutorial/server-sent-events.md",
+      "upstream_sha256": "1c2c53c7e20c55ce5e9d147347b65a8cd2b9dc982fd33a5b5187b07cbd79554b",
+      "words": 1000
+    },
+    {
+      "path": "tutorial/sql-databases.md",
+      "title": "SQL (Relational) Databases",
+      "url": "https://fastapi.tiangolo.com/tutorial/sql-databases/",
+      "upstream_path": "docs/en/docs/tutorial/sql-databases.md",
+      "upstream_sha256": "a090bb4174b12a5d7bbc84a7e7c3d8d4461d02b23501c59abbed2d894460df9f",
+      "words": 2639
+    },
+    {
+      "path": "tutorial/static-files.md",
+      "title": "Static Files",
+      "url": "https://fastapi.tiangolo.com/tutorial/static-files/",
+      "upstream_path": "docs/en/docs/tutorial/static-files.md",
+      "upstream_sha256": "6b6ed80768d92bd021a0abf9a9ba5b571dcc9b23440d1de5a13e5a109c4e77f8",
+      "words": 276
+    },
+    {
+      "path": "tutorial/stream-json-lines.md",
+      "title": "Stream JSON Lines",
+      "url": "https://fastapi.tiangolo.com/tutorial/stream-json-lines/",
+      "upstream_path": "docs/en/docs/tutorial/stream-json-lines.md",
+      "upstream_sha256": "48c8b930042ac448af3f36a09b13cbf5fb5ad087f30204ae55b61efcea858b44",
+      "words": 794
+    },
+    {
+      "path": "tutorial/testing.md",
+      "title": "Testing",
+      "url": "https://fastapi.tiangolo.com/tutorial/testing/",
+      "upstream_path": "docs/en/docs/tutorial/testing.md",
+      "upstream_sha256": "759b81a9967dc50ec405877a23bb362d202e5d483fe38ad2308cb32a88eb8eda",
+      "words": 1134
+    }
+  ]
+}
