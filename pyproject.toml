@@ -2,9 +2,7 @@
 name = "docs-rag-evals"
 version = "0.1.0"
 description = "RAG chatbot over the FastAPI docs with native Claude citations, a refusal guard, and a reproducible retrieval ablation."
-authors = [
-    { name = "Shubham Garje", email = "main.garje@gmail.com" }
-]
+authors = [{ name = "Shubham Garje" }]
 license = "MIT"
 requires-python = ">=3.12,<3.13"
 dependencies = [
